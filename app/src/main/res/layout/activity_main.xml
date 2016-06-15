@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.czp.tagview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/m1" />
+
+                <com.czp.library.TagView
+                    android:layout_width="30dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    app:bgColor="#11a224"
+                    app:textStyle="bold"
+                    app:lineSpace="0dp"
+                    app:shape="irregular"
+                    app:subTitle="推荐"
+                    app:title="新品"
+                    app:titleSize="10sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/m2" />
+
+                <com.czp.library.TagView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:rectSize="60dp"
+                    app:titleSize="10sp"
+                    app:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    app:bgColor="#11a224"
+                    app:position="topLeft"
+                    app:shape="rect"
+                    app:title="Best Seller" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/m3" />
+
+                <com.czp.library.TagView
+                    android:layout_width="30dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    app:bgColor="#FA8072"
+                    app:position="topLeft"
+                    app:shape="triangle"
+                    app:lineSpace="10dp"
+                    app:subTitle="off"
+                    app:textStyle="bold"
+                    app:tagTopPadding="15dp"
+                    app:title="30%"
+                    app:titleSize="14sp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/m4" />
+
+                <com.czp.library.TagView
+                    android:layout_width="60dp"
+                    android:layout_height="220dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    app:bgColor="#f00"
+                    app:position="topRight"
+                    app:shape="triangle"
+                    app:titleSize="14sp"
+                    app:tagTopPadding="15dp"
+                    app:title="New" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

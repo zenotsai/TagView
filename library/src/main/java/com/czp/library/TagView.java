@@ -252,4 +252,139 @@ public class TagView  extends View{
         return spValue * scale;
     }
 
+    public int getShape() {
+        return mShape;
+    }
+
+    public void setShape(int mShape) {
+        this.mShape = mShape;
+    }
+
+    public String getTitle() {
+        return mTitle;
+    }
+
+    public void setTitle(String mTitle) {
+        this.mTitle = mTitle;
+    }
+
+    public String getSubTitle() {
+        return mSubTitle;
+    }
+
+    public void setSubTitle(String mSubTitle) {
+        this.mSubTitle = mSubTitle;
+    }
+
+    public int getTitleColor() {
+        return mTitleColor;
+    }
+
+    public void setTitleColor(int mTitleColor) {
+        this.mTitleColor = mTitleColor;
+    }
+
+    public int getSubTitleColor() {
+        return mSubTitleColor;
+    }
+
+    public void setSubTitleColor(int mSubTitleColor) {
+        this.mSubTitleColor = mSubTitleColor;
+    }
+
+    public float getTitleSize() {
+        return mTitleSize;
+    }
+
+    public void setTitleSize(float mTitleSize) {
+        this.mTitleSize = mTitleSize;
+    }
+
+    public float getSubTitleSize() {
+        return mSubTitleSize;
+    }
+
+    public void setSubTitleSize(float mSubTitleSize) {
+        this.mSubTitleSize = mSubTitleSize;
+    }
+
+    public int getBgColor() {
+        return mBgColor;
+    }
+
+    public void setBgColor(int mBgColor) {
+        this.mBgColor = mBgColor;
+    }
+
+    public float getTagTopPadding() {
+        return mTagTopPadding;
+    }
+
+    public void setTagTopPadding(float mTagTopPadding) {
+        this.mTagTopPadding = mTagTopPadding;
+    }
+
+    public float getTagBottomPadding() {
+        return mTagBottomPadding;
+    }
+
+    public void setTagBottomPadding(float mTagBottomPadding) {
+        this.mTagBottomPadding = mTagBottomPadding;
+    }
+
+    public float getTagLeftPadding() {
+        return mTagLeftPadding;
+    }
+
+    public void setTagLeftPadding(float mTagLeftPadding) {
+        this.mTagLeftPadding = mTagLeftPadding;
+    }
+
+    public float getTagRightPadding() {
+        return mTagRightPadding;
+    }
+
+    public void setTagRightPadding(float mTagRightPadding) {
+        this.mTagRightPadding = mTagRightPadding;
+    }
+
+    public float getLineSpace() {
+        return mLineSpace;
+    }
+
+    public void setLineSpace(float mLineSpace) {
+        this.mLineSpace = mLineSpace;
+    }
+
+    public int getPosition() {
+        return mPosition;
+    }
+
+    public void setPosition(int mPosition) {
+        this.mPosition = mPosition;
+    }
+
+    public int getTextStyle() {
+        return mTextStyle;
+    }
+
+    public void setTextStyle(int mTextStyle) {
+        this.mTextStyle = mTextStyle;
+    }
+
+    public int getRectSize() {
+        return mRectSize;
+    }
+
+    public void setRectSize(int mRectSize) {
+        this.mRectSize = mRectSize;
+    }
+
+    public int getSubTextStyle() {
+        return mSubTextStyle;
+    }
+
+    public void setSubTextStyle(int mSubTextStyle) {
+        this.mSubTextStyle = mSubTextStyle;
+    }
 }

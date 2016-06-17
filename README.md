@@ -32,7 +32,7 @@ Three types of
 #Import your project
 
 ## Gradle
-
+```xml
 compile 'com.czp.tagView:AndroidTagView:1.0.0'
-
+```
 ![image](https://github.com/ZeeeeeeNo/TagView/blob/master/demo.png)

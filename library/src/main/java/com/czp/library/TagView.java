@@ -387,4 +387,13 @@ public class TagView  extends View{
     public void setSubTextStyle(int mSubTextStyle) {
         this.mSubTextStyle = mSubTextStyle;
     }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        if(mBitmap!=null){
+            mBitmap.recycle();
+            mBitmap = null;
+        }
+    }
 }
